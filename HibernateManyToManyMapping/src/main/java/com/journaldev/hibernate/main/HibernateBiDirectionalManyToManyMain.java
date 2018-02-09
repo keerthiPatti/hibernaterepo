@@ -46,7 +46,7 @@ public class HibernateBiDirectionalManyToManyMain {
 		session.save(ipod);
 		tx.commit();
 		sessionFactory.close();
-		
+		System.out.println("git test");
 		System.out.println("Cart ID="+cart.getId());
 		System.out.println("Cart1 ID="+cart1.getId());
 		System.out.println("Item1 ID="+iphone.getId());
